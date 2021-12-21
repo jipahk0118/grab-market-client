@@ -11,11 +11,10 @@ body,
 #header-area {
   width: 1024px;
   height: 100%;
-  background-color: orange;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 #header-area img {
   width: 128px;
@@ -25,4 +24,8 @@ body,
 #header {
   height: 64px;
   border-bottom: 1px solid gray;
+}
+
+#buttonName {
+
 }

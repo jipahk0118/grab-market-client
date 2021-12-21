@@ -20,9 +20,7 @@ function MainPage() {
   return (
     <div>
         <div id="banner">
-          <Link to={'/'}>
           <img src="images/banners/banner1.png" />
-          </Link>
         </div>
         <h1>판매중인 상품</h1>
         <div id="product-list">
