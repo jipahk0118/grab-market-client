@@ -4,3 +4,25 @@ body,
 #root > div {
   height: 100%;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+#header-area {
+  width: 1024px;
+  height: 100%;
+  background-color: orange;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header-area img {
+  width: 128px;
+  height: 36px;
+}
+
+#header {
+  height: 64px;
+  border-bottom: 1px solid gray;
+}
